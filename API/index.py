@@ -1,8 +1,7 @@
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    # PASTE YOUR ONE-FILE CODE LOGIC HERE
-    return "Your app is running!"
-  
+def hello_world():
+    return 'Your Python app is working on Vercel!'
